@@ -25,4 +25,4 @@ RUN set -ex \
     && rm -rf /var/lib/apt/lists/*
 
 USER ${APP_USER}
-ENTRYPOINT [ "python3" ]
+CMD [ "python3" ]
